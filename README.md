@@ -1,5 +1,4 @@
-# IRCTC-like Railway Management API (Windows Setup)
-
+# IRCTC-like Railway Management API 
 ## Overview
 
 This project implements a simplified version of an IRCTC-like railway management system API. It provides endpoints for user registration and authentication, train management, seat availability checking, and ticket booking.
@@ -25,7 +24,7 @@ This project implements a simplified version of an IRCTC-like railway management
 1. Clone or download the repository:
    - If using Git:
      ```
-     git clone https://github.com/your-username/irctc-api.git
+     git clone [https://github.com/your-username/irctc-api.git](https://github.com/PrathameshK1/IRCTIC-Booking-WorkIndia.git)
      cd irctc-api
      ```
    - If downloading manually, extract the ZIP file and open a command prompt in the project folder.
@@ -181,16 +180,4 @@ curl http://localhost:3000/bookings/1 -H "Authorization: Bearer your_jwt_token"
 
 The API returns appropriate HTTP status codes and error messages in JSON format for various error scenarios.
 
-## Troubleshooting
 
-- If you encounter EADDRINUSE errors, make sure no other application is using port 3000.
-- If you have issues connecting to the database, double-check your MySQL credentials in the `.env` file.
-- Make sure your MySQL server is running (you can check this in Windows Services).
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
-## License
-
-This project is licensed under the MIT License.
